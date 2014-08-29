@@ -1,0 +1,85 @@
+@font-face {
+		font-family: 'bitblox';
+		src: url('http://danyalette.com/for_internets/fonts/bitblox.ttf') format('truetype');
+}
+
+.floater{
+	background:#ddd;
+	color: #333;
+	box-shadow:5px 4px 3px rgba(0,0,0,0.4);
+	font-family:bitblox;
+	text-align:center;
+	font-size:20px;
+	background:#bbb;
+	font-style:normal;
+	padding:8px;
+	opacity:1;
+	cursor:pointer;
+}
+
+.floater
+{
+	position:absolute;
+	height:auto;
+	top:-1000px;
+	left:-1000px;
+	z-index:2147483647;
+	padding-top:12px;
+}
+
+.close-ext {
+	position:fixed;
+	top:20px;
+	right:40px;
+
+	z-index:2147483646;
+	background:none;
+}
+
+.close-ext:hover, .floater:hover {
+	opacity:1;
+}
+
+
+/* thanks to   http://nicolasgallagher.com/pure-css-speech-bubbles/demo/   for pure CSS speech-bubble */
+.menu-ext {
+  position:fixed;
+  top:10px;
+  right:10px;
+  padding:15px;
+  color:#000;
+  background:#f3961c;
+  font-family:bitblox;
+  color:#444;
+  font-size:15px;
+  z-index:2147483644;
+  border:none !important;
+  box-shadow:5px 4px 3px rgba(0,0,0,0.4);
+  max-height:100%;
+  overflow:scroll;
+}
+.menu-ext {
+  background:-webkit-gradient(linear, 0 0, 0 100%, from(#999), to(#eee));
+  background:-moz-linear-gradient(#999, #eee);
+  background:-o-linear-gradient(#999, #eee);
+  background:linear-gradient(#999, #eee);
+}
+.menu-ext p
+{
+	padding:8px !important;
+	padding-bottom:6px !important;
+	font-size:15px;
+	margin:0;
+	border:3px solid rgba(0,0,0,0);
+	cursor:pointer;
+	display:block;
+}
+.selected-ext
+{
+	background-color:rgba(0,0,0,0.15);
+	border:3px inset #888 !important;
+}
+
+
+::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
+::selection { background: #5af; color: #fff; text-shadow: none; }
