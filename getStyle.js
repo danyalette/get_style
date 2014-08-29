@@ -78,7 +78,7 @@ function setFloaterText(e){
 	
 	var elemStyle = getStyle({style: style, elem: elem});
 	
-	var x = e.pageX; 
+	var x = e.pageX + 5; 
 	var y = e.pageY - 55;
 	floater.style.top = y + "px";
 	floater.style.left = x + "px"; 
