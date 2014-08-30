@@ -7,7 +7,7 @@
 	background:#ddd;
 	color: #333;
 	box-shadow:5px 4px 3px rgba(0,0,0,0.4);
-	font-family:bitblox;
+	font-family:bitblox !important;
 	text-align:center;
 	font-size:20px;
 	background:#bbb;
@@ -49,13 +49,13 @@
   padding:15px;
   color:#000;
   background:#f3961c;
-  font-family:bitblox;
+  font-family:bitblox !important;
   color:#444;
   font-size:15px;
   z-index:2147483644;
   border:none !important;
   box-shadow:5px 4px 3px rgba(0,0,0,0.4);
-  max-height:100%;
+  max-height:88%;
   overflow:scroll;
 }
 .menu-ext {
